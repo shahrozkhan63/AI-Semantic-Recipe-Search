@@ -35,8 +35,9 @@ namespace RecipeSearchApp
     {
 
         private const string connectionString =
-  "Data Source=MIS-SHAHROOZ\\SQLEXPRESS;Initial Catalog=db_aa7f0b_bodbdevelopment;" +
-  "Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True;";
+  "Data Source=YOUR_SERVER_NAME;Initial Catalog=YOUR_DATABASE_NAME;" +
+    "User Id=YOUR_DB_USERNAME;Password=YOUR_DB_PASSWORD;" +
+    "TrustServerCertificate=True;";
 
 
         const string openAiKey = "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"; // Replace with your OpenAI key
