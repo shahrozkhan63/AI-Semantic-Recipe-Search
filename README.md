@@ -34,7 +34,7 @@ This project demonstrates **semantic search**, **vector similarity**, and **mult
 ## **Setup Instructions**
 
 1. Clone the repository:
-```bash
+
 git clone https://github.com/shahrozkhan63/AI-Semantic-Recipe-Search.git
 cd AI-Semantic-Recipe-Search
 
