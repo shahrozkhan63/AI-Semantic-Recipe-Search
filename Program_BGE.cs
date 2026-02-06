@@ -14,8 +14,9 @@ internal class Program
     /* ───────── CONFIG ───────── */
 
     private const string ConnStr =
-"Data Source=MIS-SHAHROOZ\\SQLEXPRESS;Initial Catalog=db_aa7f0b_bodbdevelopment;" +
-"Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True;";
+"Data Source=YOUR_SERVER_NAME;Initial Catalog=YOUR_DATABASE_NAME;" +
+    "User Id=YOUR_DB_USERNAME;Password=YOUR_DB_PASSWORD;" +
+    "TrustServerCertificate=True;";
 
     private const string ModelPath = "model/bge-small-en-v1.5.onnx";
     private const string VocabPath = "model/vocab.txt";
